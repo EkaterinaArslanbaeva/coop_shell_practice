@@ -1,0 +1,7 @@
+read -p "lines in file:" line
+if [ grep -n $line  -gt 10]
+then
+ echo"The lines less then 11"
+else
+ echo "Lines 11 or more"
+fi
